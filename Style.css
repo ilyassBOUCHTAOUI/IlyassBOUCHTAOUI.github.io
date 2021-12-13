@@ -86,8 +86,8 @@ label[id="LabelError"]{
 a{
 	text-decoration: none;
 }
-
 input:focus{
 	outline: none !important;
 	box-shadow: 1px 1px 4px #7F16AA;
 }
+

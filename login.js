@@ -32,8 +32,4 @@ function DisableSubmit(){
     element.style.opacity = "0.4";
     element.style.cursor = "";
 }
-
 setInterval(check,1);
-function submit(){
-    alert("Good");
-}
