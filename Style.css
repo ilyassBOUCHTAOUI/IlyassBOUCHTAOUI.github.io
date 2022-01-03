@@ -23,7 +23,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	color: black;
-	font-family: "Arial Black";
+	font-family: "Nova Flat","sans-serif";
 }
 p{
 	margin: 0px;
@@ -35,7 +35,9 @@ h1{
 	margin: 0;
 	padding: 0;
 }
-
+p{
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
 input[type="text"],[type="password"]
 {
 	height: 25px;
@@ -43,18 +45,20 @@ input[type="text"],[type="password"]
 	margin-left: 20px;
 	border: none;
 	padding: 5px;
+	margin-top: 10px;
 	border-radius: 10px;
 	border-bottom: 2px solid #D3E1D8;
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
-input[type="text"]#user{
-	background-image: url("../wallpaper/user.png");
+input[type="text"]{
+	background-image: url("user.png");
 	background-position: 10px 10px;
 	background-size: 15px;
 	background-repeat: no-repeat;
 	padding-left: 32px;
 }
-input[type="password"]#pass{
-	background-image: url("../wallpaper/key.jpg");
+input[type="password"]{
+	background-image: url("key.jpg");
 	background-position: 5px 5px;
 	background-size: 30px;
 	background-repeat: no-repeat;
